@@ -1,0 +1,112 @@
+
+.Pictures_blocks{
+    display: flex; flex-wrap: wrap;
+    background: #eff1f7;
+  }
+  
+  .box{
+  
+    width:100%; height: 400px; box-sizing: border-box;
+    background: #eff1f7;
+  }
+  .Thin_box{
+  
+    width: 100%;
+    background: #eff1f7;
+  }
+  
+  /* .dark_blue {
+    background: darkblue;
+    
+  } */
+
+  .MyLogo{
+    display: inline-block;
+    width: 80%;
+    height: 80%;
+    background: #eff1f7;
+    
+}
+  
+.hero_content{
+  display: block;
+  background: #eff1f7;
+}
+
+/* .menu{
+  align-content: center;
+  
+} */
+  
+  
+  .blue {               /* name is for debuging spaces using background colors*/
+    /* background: blue; */
+    /* width: 20%; */
+    background: #eff1f7;
+  }
+  
+  
+  .green {
+    /* background: green; */
+    background: #eff1f7;
+  
+  }
+  
+  .hero_content{
+    background: #eff1f7;
+    font-size: 150%;
+    padding-bottom: 30px;
+  }
+  
+  .red {
+    /* background: red; */
+      background: #eff1f7;
+  
+  }
+
+  .intro{
+    text-align: center;
+    font-size: 200%;
+    padding-bottom: 20%;
+    font-family: Raleway;
+  }
+
+  .pink{
+    /* background: pink;  */
+    display: inline-flex;
+    padding-bottom: 20%;
+    padding-top: 1%;
+    /* padding-right: 10%; padding-left: 10%; */
+    background: #eff1f7;
+  }
+
+ ul{list-style-type: none; align-self: center}
+ ul li{ display: inline; padding-right: 0.8em; font-size: 190%;}
+  
+  @media (max-width: 799px) {
+    .dark_blue{width: 20%}
+    .pink{width: 80%;}
+    .blue{width: 0%}
+    .red{width: 100%;}
+    /* .green{width: 100%; margin-left: auto; margin-right: auto;} */
+    /* h1{font-size: 190%;}
+    p{font-size: 100%;} */
+    ul li{font-size: 160%;}
+     
+  }
+  
+  @media (min-width: 800px){
+    .dark_blue{width:20%}
+    .pink{width: 80%}
+    /* .light_blue{width:70%} */
+    .blue{width: 20%}
+    .red{width: 100%}
+}
+  
+    .Pictures_blocks{
+     
+      margin-left: auto; margin-right:auto;
+      background: #eff1f7;
+  }
+  
+  
